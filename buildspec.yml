@@ -21,7 +21,7 @@ phases:
   post_build:
     commands:
       - echo Pushing image to ECR...
-      -docker push \
+      - docker push \
       767397902739.dkr.ecr.me-central-1.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
 
 artifacts:
