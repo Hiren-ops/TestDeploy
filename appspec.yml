@@ -4,4 +4,4 @@ os: linux
 hooks:
   ApplicationStart:
     - location: scripts/start_container.sh
-      timeout: 900
+      timeout: 300
