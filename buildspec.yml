@@ -6,7 +6,7 @@ env:
     IMAGE_TAG: latest
 
 phases:
-  pre-build:
+  pre_build:
     commands:
       -echo Logging in to Amazon ECR.
       -aws ecr get-login-password --region me-central-1 |
