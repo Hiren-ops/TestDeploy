@@ -1,7 +1,7 @@
 const express = require('express');
 const app = exoress();
 
-app.get('/', req, res) => {
+app.get('/', (req, res) => {
   res.send('Hello from CodeDeploy + Docker!');
 });
 
