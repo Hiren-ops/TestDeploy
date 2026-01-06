@@ -4,7 +4,7 @@ os: linux
 hooks:
   AfterInstall:
     - location: scripts/install_docker.sh
-      timeout: 300
+      timeout: 600
   ApplicationStart:
     - location: scripts/start_container.sh
-      timeout: 300
+      timeout: 600
