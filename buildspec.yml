@@ -4,7 +4,7 @@ env:
   variables:
     IMAGE_REPO_NAME: sample-app
     IMAGE_TAG: latest
-    ECS_CLUSTER: sample-cluster
+    ECS_CLUSTER: sample-cluster-hiren
     ECS_SERVICE: sample-service
 
 phases:
